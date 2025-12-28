@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.19)
+set(CMAKE_CXX_COMPILER "nvc++")
 project(openacc_test)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
